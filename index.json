@@ -1,97 +1,99 @@
-﻿{
-    "$schema":  "./schema/index.schema.json",
-    "schemaVersion":  1,
-    "updatedAt":  "2026-11-18T08:53:14Z",
-    "plugins":  [
-                    {
-                        "id":  "custom.hello-custom",
-                        "name":  "РўРµСЃС‚РѕРІС‹Р№ Р±Р»РѕРє Custom Repo",
-                        "description":  "РўРµСЃС‚РѕРІС‹Р№ РєР°СЃС‚РѕРјРЅС‹Р№ РїР»Р°РіРёРЅ РґР»СЏ РїСЂРѕРІРµСЂРєРё РїРѕРґРєР»СЋС‡РµРЅРёСЏ СЃС‚РѕСЂРѕРЅРЅРёС… СЂРµРїРѕР·РёС‚РѕСЂРёРµРІ РІ TMAdmin.",
-                        "author":  {
-                                       "name":  "MentalChaos",
-                                       "url":  "https://github.com/mentalchaos0x2b"
-                                   },
-                        "category":  "utility",
-                        "icon":  "AppsOutline",
-                        "repository":  "https://github.com/mentalchaos0x2b/TMAdminPluginsCustom",
-                        "license":  "MIT",
-                        "latestVersion":  "1.0.0",
-                        "releases":  [
-                                         {
-                                             "version":  "1.0.0",
-                                             "minAppVersion":  "0.1.0",
-                                             "releasedAt":  "2026-11-18T08:53:14Z",
-                                             "changelog":  "РџРµСЂРІС‹Р№ С‚РµСЃС‚РѕРІС‹Р№ СЂРµР»РёР· РєР°СЃС‚РѕРјРЅРѕРіРѕ Р±Р»РѕРєР°.",
-                                             "downloadUrl":  "https://github.com/mentalchaos0x2b/TMAdminPluginsCustom/releases/download/v1.0.0/custom.hello-custom-1.0.0.zip",
-                                             "sha256":  "4f16ba63db93a18f1caaa525ae7e6c1ae1736935b1e59f280f461757ac7d2ebe",
-                                             "permissions":  [
-                                                                 "store.write"
-                                                             ],
-                                             "blocks":  [
-                                                            {
-                                                                "id":  "hello-custom-block",
-                                                                "title":  "РџСЂРёРІРµС‚СЃС‚РІРёРµ Custom",
-                                                                "icon":  "AppsOutline",
-                                                                "defaultSize":  {
-                                                                                    "w":  8,
-                                                                                    "h":  4
-                                                                                },
-                                                                "minSize":  {
-                                                                                "w":  4,
-                                                                                "h":  2
-                                                                            },
-                                                                "description":  "Р”РµРјРѕРЅСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ Р±Р»РѕРє РєР°СЃС‚РѕРјРЅРѕРіРѕ СЂРµРїРѕР·РёС‚РѕСЂРёСЏ"
-                                                            }
-                                                        ]
-                                         }
-                                     ]
-                    },
-                    {
-                        "id":  "custom.quick-notes-mini",
-                        "name":  "Р‘С‹СЃС‚СЂС‹Рµ Р·Р°РјРµС‚РєРё (Custom)",
-                        "description":  "РњРёРЅРё-Р±Р»РѕРє РґР»СЏ Р±С‹СЃС‚СЂРѕР№ С„РёРєСЃР°С†РёРё РѕРїРµСЂР°С‚РёРІРЅС‹С… Р·Р°РјРµС‚РѕРє РёРЅР¶РµРЅРµСЂР° РЅР° СЂР°Р±РѕС‡РµРј РјРµСЃС‚Рµ.",
-                        "author":  {
-                                       "name":  "MentalChaos",
-                                       "url":  "https://github.com/mentalchaos0x2b"
-                                   },
-                        "category":  "utility",
-                        "icon":  "CreateOutline",
-                        "repository":  "https://github.com/mentalchaos0x2b/TMAdminPluginsCustom",
-                        "license":  "MIT",
-                        "latestVersion":  "1.0.0",
-                        "releases":  [
-                                         {
-                                             "version":  "1.0.0",
-                                             "minAppVersion":  "0.1.0",
-                                             "releasedAt":  "2026-11-18T08:53:14Z",
-                                             "changelog":  "РџРµСЂРІС‹Р№ СЂРµР»РёР· Р·Р°РјРµС‚РѕРє РґР»СЏ РєР°СЃС‚РѕРјРЅРѕРіРѕ РјР°СЂРєРµС‚Р°.",
-                                             "downloadUrl":  "https://github.com/mentalchaos0x2b/TMAdminPluginsCustom/releases/download/v1.0.0/custom.quick-notes-mini-1.0.0.zip",
-                                             "sha256":  "32b29527ab1770ace06418f832b3b2a2ca143efdc23b4c96df528a3d21561959",
-                                             "permissions":  [
-                                                                 "store.write"
-                                                             ],
-                                             "blocks":  [
-                                                            {
-                                                                "id":  "quick-notes-block",
-                                                                "title":  "Р‘С‹СЃС‚СЂС‹Рµ Р·Р°РјРµС‚РєРё",
-                                                                "icon":  "CreateOutline",
-                                                                "defaultSize":  {
-                                                                                    "w":  8,
-                                                                                    "h":  5
-                                                                                },
-                                                                "minSize":  {
-                                                                                "w":  4,
-                                                                                "h":  3
-                                                                            },
-                                                                "description":  "РћРїРµСЂР°С‚РёРІРЅС‹Рµ Р·Р°РјРµС‚РєРё СЃ СЃРѕС…СЂР°РЅРµРЅРёРµРј СЃРѕСЃС‚РѕСЏРЅРёСЏ"
-                                                            }
-                                                        ]
-                                         }
-                                     ]
-                    }
-                ],
-    "app":  {
-                "latestVersion":  "1.0.0",
-                "updaterManifestUrl":  "https://github.com/mentalchaos0x2b/TMAdminPluginsCustom/releases/latest/download/latest.json"
-            }
+{
+    "$schema": "./schema/index.schema.json",
+    "schemaVersion": 1,
+    "updatedAt": "2026-11-18T09:30:49.456Z",
+    "plugins": [
+        {
+            "id": "custom.hello-custom",
+            "name": "Тестовый блок Custom Repo",
+            "description": "Тестовый плагин из пользовательского репозитория для проверки динамической установки и загрузки блоков.",
+            "author": {
+                "name": "MentalChaos",
+                "url": "https://github.com/mentalchaos0x2b"
+            },
+            "category": "utility",
+            "icon": "AppsOutline",
+            "repository": "https://github.com/mentalchaos0x2b/TMAdminPluginsCustom",
+            "license": "MIT",
+            "latestVersion": "1.0.0",
+            "releases": [
+                {
+                    "version": "1.0.0",
+                    "minAppVersion": "0.1.0",
+                    "releasedAt": "2026-11-18T08:53:14Z",
+                    "changelog": "РџРµСЂРІС‹Р№ С‚РµСЃС‚РѕРІС‹Р№ СЂРµР»РёР· РєР°СЃС‚РѕРјРЅРѕРіРѕ Р±Р»РѕРєР°.",
+                    "downloadUrl": "https://github.com/mentalchaos0x2b/TMAdminPluginsCustom/releases/download/v1.0.0/custom.hello-custom-1.0.0.zip",
+                    "sha256": "4f16ba63db93a18f1caaa525ae7e6c1ae1736935b1e59f280f461757ac7d2ebe",
+                    "permissions": [
+                        "store.write"
+                    ],
+                    "blocks": [
+                        {
+                            "id": "hello-custom-block",
+                            "title": "РџСЂРёРІРµС‚СЃС‚РІРёРµ Custom",
+                            "icon": "AppsOutline",
+                            "defaultSize": {
+                                "w": 8,
+                                "h": 4
+                            },
+                            "minSize": {
+                                "w": 4,
+                                "h": 2
+                            },
+                            "description": "Р”РµРјРѕРЅСЃС‚СЂР°С†РёРѕРЅРЅС‹Р№ Р±Р»РѕРє РєР°СЃС‚РѕРјРЅРѕРіРѕ СЂРµРїРѕР·РёС‚РѕСЂРёСЏ"
+                        }
+                    ]
+                }
+            ],
+            "changelog": "Первая версия тестового плагина."
+        },
+        {
+            "id": "custom.quick-notes-mini",
+            "name": "Быстрые заметки (Custom)",
+            "description": "Мини-блок быстрых заметок для рабочего стола.",
+            "author": {
+                "name": "MentalChaos",
+                "url": "https://github.com/mentalchaos0x2b"
+            },
+            "category": "utility",
+            "icon": "CreateOutline",
+            "repository": "https://github.com/mentalchaos0x2b/TMAdminPluginsCustom",
+            "license": "MIT",
+            "latestVersion": "1.0.0",
+            "releases": [
+                {
+                    "version": "1.0.0",
+                    "minAppVersion": "0.1.0",
+                    "releasedAt": "2026-11-18T08:53:14Z",
+                    "changelog": "РџРµСЂРІС‹Р№ СЂРµР»РёР· Р·Р°РјРµС‚РѕРє РґР»СЏ РєР°СЃС‚РѕРјРЅРѕРіРѕ РјР°СЂРєРµС‚Р°.",
+                    "downloadUrl": "https://github.com/mentalchaos0x2b/TMAdminPluginsCustom/releases/download/v1.0.0/custom.quick-notes-mini-1.0.0.zip",
+                    "sha256": "32b29527ab1770ace06418f832b3b2a2ca143efdc23b4c96df528a3d21561959",
+                    "permissions": [
+                        "store.write"
+                    ],
+                    "blocks": [
+                        {
+                            "id": "quick-notes-block",
+                            "title": "Р‘С‹СЃС‚СЂС‹Рµ Р·Р°РјРµС‚РєРё",
+                            "icon": "CreateOutline",
+                            "defaultSize": {
+                                "w": 8,
+                                "h": 5
+                            },
+                            "minSize": {
+                                "w": 4,
+                                "h": 3
+                            },
+                            "description": "РћРїРµСЂР°С‚РёРІРЅС‹Рµ Р·Р°РјРµС‚РєРё СЃ СЃРѕС…СЂР°РЅРµРЅРёРµРј СЃРѕСЃС‚РѕСЏРЅРёСЏ"
+                        }
+                    ]
+                }
+            ],
+            "changelog": "Добавлены быстрые заметки."
+        }
+    ],
+    "app": {
+        "latestVersion": "1.0.0",
+        "updaterManifestUrl": "https://github.com/mentalchaos0x2b/TMAdminPluginsCustom/releases/latest/download/latest.json"
+    }
 }
