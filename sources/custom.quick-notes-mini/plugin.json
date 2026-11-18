@@ -1,0 +1,28 @@
+{
+  "id": "custom.quick-notes-mini",
+  "name": "Быстрые заметки (Custom)",
+  "version": "1.0.0",
+  "author": "MentalChaos",
+  "description": "Мини-блок для быстрой фиксации оперативных заметок инженера на рабочем месте.",
+  "icon": "CreateOutline",
+  "permissions": [
+    "store.write"
+  ],
+  "blocks": [
+    {
+      "id": "quick-notes-block",
+      "title": "Быстрые заметки",
+      "entry": "blocks/QuickNotesBlock.vue",
+      "icon": "CreateOutline",
+      "description": "Оперативные заметки с сохранением состояния",
+      "defaultSize": {
+        "w": 8,
+        "h": 5
+      },
+      "minSize": {
+        "w": 4,
+        "h": 3
+      }
+    }
+  ]
+}

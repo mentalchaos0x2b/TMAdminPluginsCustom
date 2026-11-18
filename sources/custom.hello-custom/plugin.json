@@ -1,0 +1,28 @@
+{
+  "id": "custom.hello-custom",
+  "name": "Тестовый блок Custom Repo",
+  "version": "1.0.0",
+  "author": "MentalChaos",
+  "description": "Тестовый кастомный плагин для проверки подключения сторонних репозиториев в TMAdmin.",
+  "icon": "AppsOutline",
+  "permissions": [
+    "store.write"
+  ],
+  "blocks": [
+    {
+      "id": "hello-custom-block",
+      "title": "Приветствие Custom",
+      "entry": "blocks/HelloBlock.vue",
+      "icon": "AppsOutline",
+      "description": "Демонстрационный блок кастомного репозитория",
+      "defaultSize": {
+        "w": 8,
+        "h": 4
+      },
+      "minSize": {
+        "w": 4,
+        "h": 2
+      }
+    }
+  ]
+}
